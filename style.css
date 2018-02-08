@@ -1,52 +1,54 @@
 /*Style the font */
 .styledfont {
     color: darkgray;
-    font-family: Georgia;
-    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
 }
 .styledfontlight {
-    color: white;
-    font-family: Georgia;
-    font-size: x-large;
+    color: #ebebeb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
 }
 
 /* Style the box */
 .bigbox {
-    background-color: dimgray;
+    background-color: #777;
     height: 100%;
+    width: 960px;
+   
 }
 
 /* Style the header */
 .header {
-    background-color: white;
-    width: auto;
+    background-color: #ebebeb;
+    width: 495px;
+    align-self: center;
     padding: 10px;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 }
 
 /* Style the top navigation bar */
 .topnav {
-    background-color: white;
-    width: auto;
+    background-color: #ebebeb;
+    width: 495px;
     padding: 10px;
     text-align: center;
     margin: 10px;
-    margin: 20px;
 }
 
 /* Create two equal columns that floats next to each other */
 .column {
     float: left;
-    background-color: white;
+    background-color: #ebebeb;
     height: 400px;
-    width: 48%;
+    width: 25.5%;
     text-align: center;
-    margin: 12px;
+    margin: 10px;
 }
 
 /* Clear floats after the columns */
@@ -56,7 +58,7 @@
     clear: both;
 }
 .article {
-    background-color: dimgray;
+    background-color: #777;
     height: 200px;
     width: auto;
     text-align: center;
@@ -64,7 +66,7 @@
 }
 
 .htags {
-    background-color: white;
+    background-color: #ebebeb;
     height: 50px;
     width: auto;
     text-align: center;
@@ -72,7 +74,7 @@
 }
 
 .ptags {
-    background-color: white;
+    background-color: #ebebeb;
     height: 50px;
     width: auto;
     text-align: center;
@@ -80,10 +82,10 @@
 }
 /* Style the footer */
 .footer {
-    background-color: white;
-    width: auto;
+    background-color: #ebebeb;
+    width: 495px;
     padding: 10px;
     text-align: center;
-    margin: 20px;
+    margin: 10px;
 }
 
