@@ -1,0 +1,89 @@
+/*Style the font */
+.styledfont {
+    color: darkgray;
+    font-family: Georgia;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+.styledfontlight {
+    color: white;
+    font-family: Georgia;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Style the box */
+.bigbox {
+    background-color: dimgray;
+    height: 100%;
+}
+
+/* Style the header */
+.header {
+    background-color: white;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    background-color: white;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    margin: 20px;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    background-color: white;
+    height: 400px;
+    width: 48%;
+    text-align: center;
+    margin: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.article {
+    background-color: dimgray;
+    height: 200px;
+    width: auto;
+    text-align: center;
+    margin: 12px;
+}
+
+.htags {
+    background-color: white;
+    height: 50px;
+    width: auto;
+    text-align: center;
+    margin: 12px;
+}
+
+.ptags {
+    background-color: white;
+    height: 50px;
+    width: auto;
+    text-align: center;
+    margin: 12px;
+}
+/* Style the footer */
+.footer {
+    background-color: white;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
