@@ -1,91 +1,94 @@
-/*Style the font */
-.styledfont {
-    color: darkgray;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+    background: #777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 18px;
-    font-weight: bold;
-    text-align: center;
+    widows: 960px;
+    margin: 0 auto;
 }
-.styledfontlight {
+#stylefont {
+    text-align: center;
+    padding-top: 10px;
+    color: #777;
+}
+#lightstylefont {
+    text-align: center;
+    padding-top: 10px;
     color: #ebebeb;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
 }
-
-/* Style the box */
-.bigbox {
-    background-color: #777;
-    height: 100%;
-    width: 960px;
-   
-}
-
-/* Style the header */
-.header {
-    background-color: #ebebeb;
+header {
+    background: #ebebeb;
     width: 495px;
-    align-self: center;
-    padding: 10px;
+    height: 40px;
+    margin: 10px auto;
     text-align: center;
-    margin: 10px;
+    margin-bottom: 0 auto;
 }
-
-/* Style the top navigation bar */
-.topnav {
-    background-color: #ebebeb;
+.nav {
+    background: #ebebeb;
     width: 495px;
-    padding: 10px;
+    height: 40px;
+    margin: 0 auto;
     text-align: center;
-    margin: 10px;
+    margin-bottom: 20px;
 }
 
-/* Create two equal columns that floats next to each other */
-.column {
-    float: left;
-    background-color: #ebebeb;
-    height: 400px;
-    width: 25.5%;
-    text-align: center;
-    margin: 10px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
+.main-box {
+    width: 495px;
+    min-height: 350px;
+    margin: 0 auto;
     clear: both;
 }
+
+.section {
+    background: #ebebeb;
+    width: 48.5%;
+    height: 350px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 3%;
+}
+.aside {
+    background: #ebebeb;
+    width: 48.5%;
+    height: 350px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 20px;
+    float: left;
+}
 .article {
-    background-color: #777;
-    height: 200px;
-    width: auto;
+    background: #777;
+    width: 220px;
+    height: 250px;
+    margin: 10px auto;
     text-align: center;
-    margin: 12px;
+    margin-bottom: 20px;
 }
 
-.htags {
-    background-color: #ebebeb;
-    height: 50px;
-    width: auto;
+.htag {
+    background: #ebebeb;
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
     text-align: center;
-    margin: 12px;
+    margin-top: 60px;
 }
 
-.ptags {
-    background-color: #ebebeb;
-    height: 50px;
-    width: auto;
+.ptag {
+    background: #ebebeb;
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
     text-align: center;
-    margin: 12px;
+    margin-bottom: 20px;
 }
-/* Style the footer */
 .footer {
-    background-color: #ebebeb;
+    background: #ebebeb;
     width: 495px;
-    padding: 10px;
+    min-height: 40px;
+    margin: 0 auto;
     text-align: center;
-    margin: 10px;
+    margin-bottom: 20px;
 }
-
